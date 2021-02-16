@@ -1,0 +1,68 @@
+/* Font-Family */
+
+p {
+    /* font-family: Calibri; */
+    font-family: 'Acme', sans-serif;
+}
+
+/* h1 {
+    font-family: "Arial Black";
+} */
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/* Font-Size */
+body {
+    font-size: 10px;
+}
+
+h1 {
+    /* font-size: 100px; */
+    font-size: 5.0em;
+}
+
+p {
+    /* font-size: 40px; */
+    font-size: 2.0em;
+}
+
+span {
+    font-size: 2.0em;
+}
+
+/* Font-Weight */
+
+p {
+    font-weight: normal;
+    /* font-weight: bold; */
+    /* font-weight: 100-800; */
+}
+
+/* Line-Height */
+p {
+    /* basically double space */
+    line-height: 2;
+}
+
+/* Text-Align */
+
+h1 {
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+/* Text-Decoration */
+
+p {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: line-through;
+}

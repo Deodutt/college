@@ -1,0 +1,68 @@
+/* Elements */
+/* li {
+
+} */
+
+/* Class */
+/* .hello{
+
+
+} */
+/* ID */
+/* #name {
+
+
+} */
+/* Stars */
+/* selects all elements */
+
+/* I am not going to use * because it interfears with the navigation bar. I made an ID and placed it on all elements excluding nav bar. */
+.allelements {
+    border: 1px solid lightgreen;
+}
+
+/* Descendant Selector */
+/* This selects everything that is an <a> tag inside of an li */
+li a {
+    color: red;
+
+}
+
+/* Adjacent Selectors */
+/* It will let us select elements after another element. select a sibling
+select all ULs after H4  */
+h4+ul {
+    border: 4px solid red;
+
+}
+
+/* Attribute Selectors */
+/* Way to select attributes based off any attribute */
+/* this will select every ancor tag with href = to that. */
+a[href="https://www.google.com/"] {
+    background: blueviolet;
+}
+
+/* 
+input[type="checkbox"]{
+    
+}
+
+*/
+
+
+
+/* nTH of type */
+/* it takes a number like 3 or 5 and it selects nth of specific element */
+/*  */
+
+ul:nth-of-type(3) {
+    background: purple;
+}
+
+/* 
+ul:nth-of-type(even){
+    background: purple;
+}
+
+*/

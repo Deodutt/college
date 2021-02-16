@@ -1,0 +1,125 @@
+/* Use https://coolors.co/ and your recipe image to help you generate a palette with a primary, secondary, tertiary, black, and white colors */
+/* Use https://maketintsandshades.com/ to help you generate light and dark versions of your primary, secondary, and tertiary colors */
+/*  From your pallete, list the hex color value after each color below */
+
+/* 
+color-primary; #DF7948
+color-primary-dark #b2613a
+color-primary-light #e5946d
+
+color-secondary #6B8643
+color-secondary-dark #566b36
+color-secondary-light #899e69
+
+color-tertiary #FF5D53 
+color-tertiary-dark #cc4a42
+color-tertiary-light #ff7d75
+
+color-black #371106
+color-white  #FFE9DC
+*/
+
+/* Give the body element a background of color-white and text a color-black */
+
+body {
+    background: #ffffff;
+    text-decoration-color: #000000
+}
+
+
+/* Make all headings uppercase */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+
+/* Make the <h1> element color-primary */
+
+h1 {
+    color: #DF7948;
+}
+
+
+/* Make the <h2> element color-secondary */
+
+h2 {
+    color: #6B8643;
+}
+
+
+/* Make the <h3> element color-tertiary */
+h3 {
+    color: #FF5D53;
+}
+
+
+/* Make link text a primary, secondary, or tertiary color with no underline */
+a {
+    color: #FF5D53;
+    text-decoration: none;
+}
+
+
+/* Make the hover state of links background color the same primary, secondary, or tertiary color; the text color-white, and with no underline */
+
+#link:hover {
+    background-color: #DF7948;
+    color: white;
+}
+
+
+/* Make the <hr> a primary, secondary, or tertiary color == you'll have to look up how to do this */
+
+hr {
+    border-top: 1px solid red;
+}
+
+
+/* Make the un-ordered and ordered lists items alternate with a background color that is the light version of your primary, secondary, or tertiary color */
+li:nth-of-type(even) {
+    background-color: #899e69;
+}
+
+
+/* Make the unordered have no bullets before each item */
+ul {
+    list-style-type: none;
+}
+
+
+/* Make the table head row have a background color that is the dark version of your primary secondary or tertiary color; color the text your white */
+ßß th {
+    color: #b2613a;
+}
+
+
+/* Make the table body rows alternate a background color of your white and the light version of the primary secondary or tertiary color used in the table head */
+
+tr:nth-of-type(even) {
+    background-color: #ff7d75;
+}
+
+
+/* Make the last table body row with the total have the same background color and text color as the table head row */
+
+tr:last-child {
+    background-color: #cc4a42;
+    color: #ffffff;
+
+}
+
+/* 
+thead tr{
+    background-color: color;
+    color: white;
+tbody tr:last-of-type{
+    background-color: red;
+    color: wheat;
+}
+ */

@@ -1,0 +1,26 @@
+h1:hover {
+    background-color: pink;
+}
+
+button:hover {
+    color: white;
+}
+
+input:focus {
+    /* color: red; */
+    background-color: teal;
+}
+
+button:focus {
+    border-radius: 10px;
+    background-color: #2ecc71;
+}
+
+button:active {
+    background-color: orange;
+    font-size: 30px;
+}
+
+p:active {
+    color: yellow;
+}
