@@ -1,0 +1,12 @@
+body {
+    background: orange;
+}
+
+#special {
+    background-color: violet
+}
+
+.completed {
+    text-decoration: line-through;
+
+}

@@ -1,0 +1,72 @@
+ul {
+    color: purple;
+}
+
+
+body {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+li {
+    color: orange;
+}
+
+.highlight {
+    color: brown;
+}
+
+#special {
+    color: pink;
+}
+
+span {
+    color: black;
+}
+
+
+/* Type Selectors */
+/* 
+
+li {
+
+}
+
+li a {
+
+}
+
+li + a{
+
+} 
+
+*/
+
+
+/* Class, Attribute and Pseudo-Slass selectors */
+/* 
+
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+a:hover
+input:checked 
+
+*/
+
+/* ID Selectors */
+/* 
+
+#hello{
+    
+} 
+
+*/

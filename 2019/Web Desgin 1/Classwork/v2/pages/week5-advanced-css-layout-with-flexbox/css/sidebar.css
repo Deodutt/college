@@ -1,0 +1,23 @@
+#bodytagreplacement {
+    margin: 0;
+    background: #ecf0f1;
+    float: right;
+}
+
+.sidebar2 {
+    height: 100vh;
+    width: 15vw;
+    font-family: 'Raleway', sans-serif;
+    background-color: #34495e;
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid pink; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

@@ -1,0 +1,79 @@
+.box {
+    background-color: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+}
+
+
+
+/* .animated { */
+    /*transition-duration: 2s;*/
+
+    /* transition: background-color, border-radius;
+    transition-duration: 1s, 1s;
+    transition-delay: 5s, 2ms; */
+    
+/* } */
+
+
+/* .box:hover { */
+    /* background-color: #e74c3c;
+    transform-origin: top left;
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2); */
+
+    /*opacity: 0.5; */
+
+    /* border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px; */
+
+
+    /* transition-property: background-color, border-radius; */
+
+/* } */
+
+.animated{
+    transition: transform 2s ease-out 1s, background-color 0.5s linear;
+
+    
+    /* transition-property: transform;
+    transition-duration: 2s; */
+    /* https://easings.net/en */
+    /* https://matthewlein.com/tools/ceaser */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: cubic-bezier(1.000, 0.095, 0.750, 0.750);
+    transition-delay: 1s; */
+}
+
+
+
+
+/* What should be Transitioned?
+    transform: translate();
+    transform: scale();
+    transform: rotate();
+    opacity
+
+
+*/
+
+.box:hover{
+    transform: translateX(300px);
+    background-color: teal;
+}

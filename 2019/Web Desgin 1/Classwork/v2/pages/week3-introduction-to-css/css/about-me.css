@@ -1,0 +1,48 @@
+/* h1 {
+    color: red;
+}
+
+
+
+li {
+    color: green;
+
+}
+
+
+h4 {
+    color: purple;
+
+} */
+
+/* # _ _  _ _  _ _
+  red  green  blue */
+
+h1 {
+    color: #783e9c;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: dotted; */
+    border: 8px dashed rgb(255, 20, 200)
+}
+
+h2 {
+    color: rgb(240, 0, 100)
+}
+
+h3 {
+
+    color: rgba(0, 200, 100, .2)
+}
+
+
+h4 {
+    background: rgb(255, 100, 90)
+}
+
+body {
+    background: pink;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrkaGpyE8N6dwsUhpIR7I70SnMhbORzJJC3HdHuVZTxR_VQ6HE);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}

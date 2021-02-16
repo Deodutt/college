@@ -1,0 +1,97 @@
+.container{
+    max-width: 800px;
+    margin: auto;
+    border-top: 1px solid #eee;
+    padding-bottom: 1.5%;
+}
+
+
+.inner-container{
+    display: flex;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.content{
+    padding: 20px;
+    margin: 0;
+    flex-basis: 70%;
+    font-size: 1.1rem;
+}
+
+.image{
+    flex-basis: 30%;
+}
+
+.content-text{
+    color: green;
+}
+
+.authorlink{
+    text-decoration: none;
+    color: green;
+    transition: 1s;
+}
+
+.authorlink:hover{
+    background-color: rgba(144, 238, 144, 0.562);
+    color: black;
+}
+
+.authorlink:visited{
+    text-decoration: none;
+}
+
+
+@media all and (max-width: 600px) {
+
+    .disappear{
+        display: none;
+    }
+
+    .image{
+        flex-basis:50%; 
+    }
+
+    .content{
+        flex-basis: 50%;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+/* use the universal selector to do a reset */
+/* includes the ::before and ::after pseudo selectors to deal with content in those css declarations */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  /* using the inherit keyword so all elements in the body will inherit
+    box-sizing: border-box; */
+  box-sizing: inherit;
+}
+/* font-size: 10px; */
+/* making the assumption that the default browser
+    font-size is 16px. Using the percentage reduces to 10px. */
+/* html {
+  font-size: 62.5%;
+} */
+
+/* set elements to border-box to improve sizing calculations */
+#bodytagreplacement {
+  box-sizing: border-box;
+}
+/* overall font properties set in the body element */
+#bodytagreplacement {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #777;
+}

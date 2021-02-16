@@ -1,0 +1,33 @@
+p {
+
+    /* 
+    Blue is content
+    Green is the padding
+    Orange is the margin
+*/
+
+    /* Content - Width and Height */
+    width: 50%;
+
+    /* Border */
+    border: 2px solid blue;
+
+    /* Padding */
+
+    /* padding: 10px; */
+    padding-left: 40px;
+
+
+    /* Margin */
+
+    /* margin: 100px; */
+    /* margin: 20px 40px 500px 100px; */
+    /* Top, Right, Bottom, Left */
+
+    /* margin: 0 auto 0 auto; */
+    /* right is auto , left is auto */
+
+    margin: 0 auto;
+    /* set top and bottom to 0 and left/right to auto. */
+
+}
