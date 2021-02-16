@@ -1,0 +1,306 @@
+/* header styling for nav bar */
+
+body{
+    background-color: #f5f5f5;
+    
+}
+
+ul,
+nav {
+    list-style: none;
+}
+ 
+body a {
+    text-decoration: none;
+    opacity: 0.75;
+    color: #fff;
+}
+ 
+body a:hover {
+    opacity: 1;
+}
+
+
+
+
+header {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 30px;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+ 
+
+header h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+ 
+header nav {
+    display: flex;
+    margin-right: -15px;
+}
+ 
+header nav li {
+    margin: 0 15px;
+}
+
+
+
+
+
+
+/* css forimage carousel  */
+
+.mySlides {
+    display:none;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center; 
+    height: 1300px;
+
+}
+
+
+
+
+
+
+
+/* recipe css */
+
+main {
+    max-width: 98rem;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+
+main section.Blurb {
+    text-transform: capitalize;
+    font-family: bold 32px 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+   
+    max-width: 775px;
+
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+ 
+main section.Blurb hr {
+    max-width: 775px;
+    
+    padding: 0 20px;
+    margin-bottom: 30px;
+    
+}
+
+main section.Blurb p {
+    
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+.recipe{
+    display: flex;
+}
+
+.recipe-media{
+    flex-basis: 29%;
+    /* padding-bottom: 20%; */
+}
+
+.recipe-content{
+    flex-basis: 71%;
+    padding-left: 8rem;
+    padding-top: 8rem;
+}
+
+.recipe-circle-box {
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    padding-bottom: 100%;
+    
+}
+
+.recipe-image {
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* css for btn */
+.btn {
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+
+
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+    float: right;
+  }
+  
+  .btn:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+
+
+
+
+@media screen and (min-width:1360px) {
+    .btn{ display:inline-block; }
+  }
+  @media screen and (max-width:1359px) {
+    .btn{ display:none; }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* css for in the works section */
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    
+      justify-content: space-evenly;
+
+      margin:50px 50px;
+      padding-top: 15px;
+      padding: bottom 10px;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+  
+
+
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* Footer Section */
+ 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #607d8b;
+    color: #fff;
+    padding: 20px 0;
+}
+ 
+footer ul {
+    display: flex;
+}
+ 
+footer ul li {
+    margin-left: 16px;
+}
+ 
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.6;
+    align-self: center;
+}
+
+
+
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+        
+
+    }
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
