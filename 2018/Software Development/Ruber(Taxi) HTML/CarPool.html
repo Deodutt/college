@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ruber Car Pool</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="main.html">Home</a>
+<a href="SUV.html">SUV</a>
+<a class="active" href="CarPool.html">Car Pool</a>
+<a href="Luxury.html">Luxury</a>
+<a href="cart.html">Services</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+
+<img style="width:100%;padding: 15px;height: 223px; border-radius:25px;" src="images/RuberCarPool.jpg">
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">Grand Theft Auto 5</h1>
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="https://www.uber.com/ride/uberpool/" target="_parent">
+	<img src="images/CarPool.jpg" alt="Website of Grand Theft Auto 5" title= "Grand Theft Auto 5" style="width:511px; height:302px;border-radius:25px;margin-right: 50px;"> </a>
+
+<h1 style="text-align: center;">Ruber CarPool: $10 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('CarPool')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+</td>
+
+<td>
+
+<h1 style="font-weight: 500;">
+Car Pool is a vehicle option you are given upon requesting a ride. Car pool is an option which lets you ride with other riders. This method also helps the environment out!
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+Car Pool is an affordable part of Ruber. Car Pool will cost $10 flat not tax. Order now and the closest driver will be at your location!
+
+</h1>
+</td>
+</tr>
+</table>
+
+
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;">Jesus<h2>
+<h3 style="font-style: italic; font-weight:normal; "> "If you are on a budget like me, I suggest getting this choice." </h3>
+
+<h2 style="font-weight: bold;"> Sai`ho Yip</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "This is good if you want to make new friends and bond." </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>

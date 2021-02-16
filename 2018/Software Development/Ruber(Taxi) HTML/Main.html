@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Main </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="active" href="main.html">Home</a>
+<a href="SUV.html">SUV</a>
+<a href="CarPool.html">Car Pool</a>
+<a href="Luxury.html">Luxury</a>
+<a href="cart.html">Services</a>
+</div>
+
+<div id="main">
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+
+
+<img style="width:100%;padding: 15px;height: 223px; border-radius:25px;" src="images/Ruber.jpg">
+<table style="width:100%;border-collapse: collapse;">
+
+<tr>
+<td style="text-align:center">
+<a href="SUV.html" target="_blank">
+	<img src="images/SUV.jpg" alt="Image of Some Services" title= "Services" style="width:511px; height:302px;"> </a>
+
+<br>
+<br>
+
+<br>
+</td>
+<td style="text-align:center">
+
+<h1>Ruber SUV is a vehicle option you are given upon requesting a ride. This option is for riders who are more spacious than others. </h1>
+<br>
+<h1> Ruber SUV will cost you around $30 with no taxes.</h1>
+<br>
+</td>
+</tr>
+
+
+
+
+<br>
+<br>
+<br>
+<tr>
+<td style="text-align:center">
+<a href="CarPool.html" target="_blank">
+	<img src="images/CarPool.jpg" alt="Image of Some Services" title= "Services" style="width:511px; height:302px;"> </a>
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+</td>
+<td style="text-align:center">
+	<hr>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+<h1>Car Pool is a vehicle option you are given upon requesting a ride. Car pool is an option which lets you ride with other riders. This method also helps the environment out!</h1>
+<br>
+<h1>Car Pool is an affordable part of Ruber. Car Pool will cost $10 flat not tax.</h1>
+<br>
+</td>
+</tr>
+
+<hr>
+<br>
+<br>
+<br>
+
+<tr>
+<td style="text-align:center">
+<a href="Luxury.html" target="_blank">
+	<img src="images/luxury.jpg" alt="Image of Some Services" title= "Services" style="width:511px; height:302px;"> </a>
+
+<br>
+<br>
+</td>
+
+<td style="text-align:center">
+	<hr>
+
+<h1>Luxury is a vehicle option you are given upon requesting a ride. The Luxury option is for the high ballers. By purchasing Luxury method, you will experience the best day of your lives. The Luxury also offer very expensive wine while you are chauffeured around.</h1>
+<br>
+<h1>Luxury edition is for users with big bucks. Luxury starting price is $1,000,000</h1>
+<br>
+<br>
+</td>
+</tr>
+
+
+
+
+</table>
+<br>
+<br>
+<hr>
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script>
+	
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+
+
+</script>
+<script src="Cart.js"></script>
+</body>
+</html>
