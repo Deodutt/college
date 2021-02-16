@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="assignment.css">
+	<title> Other </title>
+</head>
+
+<body>
+	<h1 class="personalinfo"> Other </h1>
+
+	<center>
+		<h1> Thank you for checking out my page!</h1>
+
+
+		<h2>Please check out my other platforms if you enjoyed me. In these platforms I like to create videos and stream
+			occasionally.</h2>
+		<br>
+	</center>
+
+	<div>
+
+		<a class="oneThird" href="#" target="_blank">
+			<img src="images/Youtube.png" alt="Youtube Channel of Ricardo" title="Youtube Channel"
+				style="width:230px;height:180px;">
+		</a>
+
+		<a class="twoThird" href="#" target="_blank">
+			<img src="images/Twitch.png" alt="Twitch Channel of Ricardo" title="Twitch Channel"
+				style="width:230px;height:180px;">
+		</a>
+
+		<a class="twoThird" href="#" target="_blank">
+			<img src="images/Twitter.png" alt="Twitter Channel of Ricardo" title="Twitter Channel"
+				style="width:230px;height:180px;">
+		</a>
+	</div>
+
+
+
+	<center>
+		<br style="clear:both;">
+		<br>
+		<br>
+		<br>
+		<h2> Here is a mini Quiz to see if you were paying attention to me </h2>
+	</center>
+	<p class="input"> 1. Which of these is <b><u>not</u></b> one of my favorite games? </p>
+	<div class="input">
+		<input type="radio" name="1" id="a" value="Fortnite"> a. Fortnite <br>
+		<input type="radio" name="1" id="b" value="DOTA 2"> b. DOTA 2 <br>
+		<input type="radio" name="1" id="c" value="Old School Runescape"> c. Old School Runescape <br>
+		<input type="radio" name="1" id="d" value="CSGO"> d. CSGO <br>
+	</div>
+
+	<p class="input"> 2. What is my favorite gaming team?</p>
+	<div class="input">
+		<input type="radio" name="2" id="a" value="Counter Logic Gaming"> a. Counter Logic Gaming <br>
+		<input type="radio" name="2" id="b" value="Team SoloMid"> b. Team SoloMid <br>
+		<input type="radio" name="2" id="c" value="Cloud9"> c. Cloud9 <br>
+		<input type="radio" name="2" id="d" value="None"> d. None <br>
+	</div>
+
+	<p class="input"> 3. Where was I born? </p>
+	<div class="input">
+		<input type="radio" name="3" id="a" value="Guyana"> a. Guyana <br>
+		<input type="radio" name="3" id="b" value="Trinidad"> b. Trinidad <br>
+		<input type="radio" name="3" id="c" value="United States"> c. United States <br>
+		<input type="radio" name="3" id="d" value="India"> d. India <br>
+	</div>
+	<br>
+	<button onclick="CheckAnswers()"> Submit </button>
+	<br>
+	<br>
+	<div class="input" id="results" style="white-space: pre;"></div>
+
+
+	<script>
+		function CheckAnswers() {
+			var one, two, three = false;
+			var checked = 0;
+			var radio = document.getElementsByTagName('input');
+			for (var i = 0; i < radio.length; i++) {
+				if (radio[i].checked) {
+					checked += 1;
+				}
+				if (radio[i].name == '1') {
+					if (radio[i].id == 'b' && radio[i].checked) {
+						one = true;
+					}
+				}
+				if (radio[i].name == '2') {
+					if (radio[i].id == 'b' && radio[i].checked) {
+						two = true;
+					}
+				}
+				if (radio[i].name == '3') {
+					if (radio[i].id == 'a' && radio[i].checked) {
+						three = true;
+					}
+				}
+			}
+			var results = document.getElementById('results');
+			results.textContent = '';
+			if (checked != 3) {
+				results.textContent += "You're not done yet!\r\n";
+				return;
+			}
+			if (one) {
+				results.textContent += 'One is Correct.\r\n';
+			} else {
+				results.textContent += 'One is Incorrect.\r\n';
+			}
+			if (two) {
+				results.textContent += 'Two is Correct.\r\n';
+			} else {
+				results.textContent += 'Two is Incorrect.\r\n';
+			}
+			if (three) {
+				results.textContent += 'Three is Correct.\r\n';
+			} else {
+				results.textContent += 'Three is Incorrect.\r\n';
+			}
+		}
+	</script>
+
+	<br>
+	<br>
+	<div style="font-size: 2em; margin: 0 auto; display:table;">
+		<ul>
+			<li><a href="Main.html" target="_parent">Main</a></li>
+			<li><a href="Personal.html" target="_parent">Personal</a></li>
+			<li><a href="Professional.html" target="_parent">Professional</a></li>
+			<li><a class="active" href="Other.html" target="_parent">Other</a></li>
+		</ul>
+	</div>
+	<h5 style="position: relative; bottom: 0;">
+		<center>Created by Ricardo Deodutt <center>
+	</h5>
+</body>
+
+</html>

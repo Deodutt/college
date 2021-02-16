@@ -1,0 +1,180 @@
+html {
+    margin: 0;
+}
+
+body { 
+    height: 100%;
+    margin: 0;
+    background-image: url("images/space.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+
+
+
+a {
+    margin: 0 auto;
+    display: table;
+
+}
+
+
+div.contact{
+    background-color:rgba(214, 0, 0, 0.5)
+    text-align: center;
+}
+
+table{
+
+    width: 100%;
+}
+
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 5px;
+    font-size: 30px;
+}
+
+th{
+
+      text-decoration: underline;
+}
+
+
+
+figcaption{
+
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0 auto;
+    display: table;
+}
+
+li {
+    font-size: 1em;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+h1.personalinfo {
+    color:black;
+    font-size: 300%;
+    font-family: Calibri;
+    text-align: center;
+
+    }
+
+
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: Calibri;
+  }
+
+
+.holder{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  z-index: 0;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    float: left;
+    border-right: 3px solid black;
+    height: 600px;
+    margin-right: -3px
+  /*background-color: #111;*/
+}
+
+/* Control the right side */
+.right {
+    float: right;
+    border-left: 3px solid black;
+    height: 600px;
+    margin-left: -3px
+  /*background-color: red;*/
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+p.list {
+    font-size: 150%;
+    font-family: verdana;
+    text-align: center;
+    }
+
+
+
+.input{
+  font-size: 150%;
+}
+
+.oneThird {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.twoThird {
+    float: left;
+    width: 30%;
+    margin-left: 0%;
+}
