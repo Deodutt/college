@@ -1,0 +1,136 @@
+
+
+main {
+    max-width: 98rem;
+    margin: 0 auto;
+}
+
+
+
+section {
+    width: 100%;
+}
+
+
+
+
+
+.showcase-title {
+    text-align: center;
+}
+
+
+.showcase-content {
+    position: relative;
+    height: 40rem;
+    margin-bottom: 4rem;
+}
+
+
+
+
+.showcase-content-text {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.showcase-content-image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.btn-showcase {
+    position: absolute;
+    display: inline-block;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #fc3a3b;
+    font-size: 16px;
+    font-weight: 300px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+
+    /* Makes it centered */
+    /* margin: 0 auto; */
+    border-radius: 20px;
+
+    box-shadow: 0 6px #922525;
+}
+
+
+
+
+
+
+/* CSS Arrow Starts */
+.arrow {
+    text-align: center;
+}
+
+.arrow-content {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/* Arrow & Hover Animation */
+#more-arrows {
+    width: 75px;
+    height: 65px;
+}
+
+#more-arrows:hover polygon {
+    fill: #fff;
+    transition: all 0.2s ease-out;
+}
+
+#more-arrows:hover polygon.arrow-bottom {
+    transform: translateY(-18px);
+}
+
+#more-arrows:hover polygon.arrow-top {
+    transform: translateY(18px);
+}
+
+polygon {
+    transition: all 0.2s ease-out;
+}
+
+polygon.arrow-middle {
+    opacity: 0.75;
+}
+
+polygon.arrow-top {
+    opacity: 0.5;
+}
+
+/* CSS Arrow Ends */
