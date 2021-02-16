@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="calc.css"/>
+    <script src="calc.js"> </script>
+</head>
+
+<body>
+
+
+    <!-- It should have  Four Operations -->
+
+    <!-- Add
+    Subtract
+    Multiplication
+    Division
+    Use CE button to cancel the operation 
+    -->
+
+    <div class="calculator-outline" id="calculator">
+
+        <table>
+            <input id="displayscreen" type="text" disabled>
+            <tr>
+                <td><input class="operator clearentry" type="button" value="CE"></td>
+                <td><input class="operator" type="button" value="÷"></td>
+                <td><input class="operator" type="button" value="*"></td>
+                <td><input class="operator clear" type="button" value="C"></td>
+
+            </tr>
+            <tr>
+                <td><input class="numbers" type="button" value="7"></td>
+                <td><input class="numbers" type="button" value="8"></td>
+                <td><input class="numbers" type="button" value="9"></td>
+                <td><input class="operator" type="button" value="-"></td>
+
+            </tr>
+
+            <tr>
+                <td><input class="numbers" type="button" value="4"></td>
+                <td><input class="numbers" type="button" value="5"></td>
+                <td><input class="numbers" type="button" value="6"></td>
+                <td><input class="operator" type="button" value="+"></td>
+
+            </tr>
+
+            <tr>
+                <td><input class="numbers" type="button" value="1"></td>
+                <td><input class="numbers" type="button" value="2"></td>
+                <td><input class="numbers" type="button" value="3"></td>
+                <td rowspan="7"><input class="operator equals" type="button" value="="></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input class="numbers zero" type="button" value="0"></td>
+                <td><input class="numbers" type="button" value="."></td>
+
+
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+
+
+
+    <!-- 
+        All Refernce Used
+        https://www.w3schools.com/js/js_functions.asp
+
+        https://www.w3schools.com/jsref/prop_html_classname.asp
+
+        https://www.w3schools.com/jsref/jsref_includes.asp
+
+        https://tecadmin.net/remove-last-character-from-string-in-javascript/
+
+        https://www.w3schools.com/jsref/jsref_eval.asp
+
+        https://www.w3schools.com/jsref/jsref_replace.asp
+
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+
+        https://www.w3schools.com/js/js_errors.asp
+
+        https://stackoverflow.com/questions/4588759/how-do-you-set-a-javascript-onclick-event-to-a-class-with-css
+
+
+     -->
+
+</body>
+
+</html>

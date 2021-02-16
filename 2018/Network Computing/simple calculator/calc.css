@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+.numbers,
+.operator {
+    margin: 2px;
+    width: 15px;
+    height: 50px;
+    font-size: 20px;
+
+}
+
+.calulator-display {
+    width: 10em;
+}
+
+.operator {
+    width: 3em;
+}
+
+.numbers {
+    width: 3em;
+}
+
+#displayscreen {
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    font-size: 25;
+    padding: 5px;
+
+}
+
+.zero {
+    width: 130px;
+}
+
+.equals {
+    height: 105px;
+}
