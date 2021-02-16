@@ -1,0 +1,71 @@
+Question 7 Pseudocode for Taxi Service Ruber C++
+
+1) Start Ruber application
+
+2) A greeting message appears and gives the user a small description of the Company
+
+3) Option to sign into the app is given
+
+If user selects No
+then {
+	he/she is told to visit www.Ruber.com for troubleshooting or more info on the services. They are also thanked for using Ruber.
+}
+
+
+else if user selects yes
+then{
+	he/she is prompted to enter username & password
+}
+
+
+
+4)yes
+
+if user's ID and Password are correct
+then{
+	user is greeted for being a member and they are given option to request a ride.
+}
+
+if user's ID and Password are incorrect
+then{
+	user is given another attempt. The max attempts is 5. After 5 the program terminates.
+}
+
+
+5)
+if user says No to request a ride 
+then{
+	program terminates
+}
+
+if user sayS Yes to request a ride,
+then{
+	type of vehicle is prompted.
+	1) SUV
+	2)CarPool
+	3) Luxury
+	Prices are listed along the type of vehcile
+}
+
+
+6) Once user selects a type of vehicle. They are told what they chose and the Ruber App Thanks them for using their service. The app also tells the user how much they will be charged and a Driver is being sent to their location through GPS.
+
+7) Program is then ended. (User should be able to see real time estimation of how long their ride will be arriving but I need a server for that part.)
+
+
+
+Question 8 Pseudocode for Taxi Service Ruber html
+
+1) Person logs into website
+
+2) They are sent to the main page where they can see the different types of services
+
+3) when a user is interested they click on the image which will then take them to a specific website that shows the service. 
+
+4) On the specific website, a breif description is shown, comments from previous customers are shown, price is shown, and a add to cart button is shown.
+
+5) The user can then check out using the check out button on the top left. 
+
+6) The user will see what they added to their cart, quanity of the item and a total price of item. The user can also remove items.
+
+7) Incase the user wants to see other services, they can navigate the website with a custom navigation bar. This navigation bar is on the Top left with the 3 lines.
