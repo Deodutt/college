@@ -1,0 +1,8 @@
+hi
+
+Open Main.html first
+
+Test out the add to cart buttons.
+
+Everything works. Remove button also.
+ The total is also accurate.

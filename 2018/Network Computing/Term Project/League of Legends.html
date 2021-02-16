@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>League of Legends</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="main.html">Main</a>
+ <a href="Fortnite.html">Fortnite</a>
+ <a class="active"href="League of Legends.html">League of Legends</a>
+ <a href="Minecraft.html">Minecraft</a>
+ <a href="GTA5.html">Grand Theft Auto 5</a>
+ <a href="PUBG.html">Player Unknown Battle Grounds</a>
+ <a href="CSGO.html">Counter Strike Global Offensive</a>
+ <a href="OSRS.html">Old School Runescape</a>
+ <a href="MW2.html">Call Of Duty: Modern Warfare 2</a>
+ <a href="Bully.html">Bully</a>
+ <a href="Wizard101.html">Wizard101</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+<img style="width:100%; height: 223px;padding: 15px; border-radius:25px;" src="images/League of Legends Banner.jpg">
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">League of Legends</h1>
+
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="https://na.leagueoflegends.com/en/" target="_parent">
+	<img src="images/League of Legends2.jpg" alt="Website of League of Legends" title= "League of Legends" style="width:511px; height:302px;margin-right: 50px;border-radius:25px;"> </a>
+
+<h1 style="text-align: center;">1350 RP: $10 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('1350 RP')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+</td>
+
+<td>
+
+<h1 style="font-weight: 500;">
+League of Legends is a multiplayer online battle arena game. This game was created by Riot Games. This is a fast paced, competitive online game that has 2 teams fighting it out. The object of the game is to strategically destroy the enemey's nexus. A nexus is basically the heart of the team. Once you destroy it, you win the game. League of legends also has a hierarchy ranking system for the competitive side. Bronze, silver, gold, platinum, diamond, master, and challenger. Bronze is the lowest and challenger is the highest. There is a competitve e-sports scence that creates lots of attention. Some popular teams are Cloud9, Team SoloMid, Counter Logic Gaming, Team Liquid, etc. League is overall the number one free to play game.
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+League of Legends is free to play! League of Legends has a currency called "Riot Points" in the game which can be used to buy, champions, skins for champions, icons, ward skins, etc. League of Legends is playable on Microsoft Windows, Macintosh Operating system, and macOS
+</h1>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;"> Ricardo</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "League of Legends is an amazing free to play game. I started playing this game in 2014 and still play. This game can get annoying at sometimes, but the overall game is amazing. I love the ranking system and even the e-sports part of this game. I love rooting for teams that eventually lose because I am unlucky." </h3>
+
+<h2 style="font-weight: bold;">Bishajit</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "League of Legends is a fun game. I've been playing since 2013. Even thought im not that good at this game I still enjoy it. I usually look at what pro players do and try to emulate them. My favorite player is Darshan from CLG." </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>

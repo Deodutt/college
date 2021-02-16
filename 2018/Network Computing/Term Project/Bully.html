@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bully</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="main.html">Main</a>
+ <a href="Fortnite.html">Fortnite</a>
+ <a href="League of Legends.html">League of Legends</a>
+ <a href="Minecraft.html">Minecraft</a>
+ <a href="GTA5.html">Grand Theft Auto 5</a>
+ <a href="PUBG.html">Player Unknown Battle Grounds</a>
+ <a href="CSGO.html">Counter Strike Global Offensive</a>
+ <a href="OSRS.html">Old School Runescape</a>
+ <a href="MW2.html">Call Of Duty: Modern Warfare 2</a>
+ <a class="active" href="Bully.html">Bully</a>
+ <a href="Wizard101.html">Wizard101</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+
+<img style="width:100%;height: 223px;padding: 15px; border-radius:25px;" src="images/Bully Banner.jpg">
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">Bully</h1>
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="https://www.rockstargames.com/bully/" target="_parent">
+	<img src="images/Bully2.jpg" alt="Website of Bully" title= "Bully" style="width:511px; height:302px;margin-right: 50px;border-radius:25px;"> </a>
+
+<h1 style="text-align: center;">Bully: $14.99 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('Bully Game')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+
+</td>
+
+<td>
+<h1 style="font-weight: 500;">
+Bully is an action-adventure video game developed by Rockstar Vancouver and was published by Rockstar Games. This game was released around 2006 and is still played today. This is a offline storymode that shows the life of a teen in high school. Throughout the story, players will control a character named, Jimmy Hopkins and will attend classes, do missions, and try to take over the school. This game gives users the option to free roam.
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+Bully is playable on Android, PS2, PS3, PS4, XBOX 360, Microsoft Windows, iOS, and Wii.
+</h1>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;">Joel</h2>
+<h3 style="font-style: italic; font-weight:normal; ">"I used to play this game all the time! This game was fun because you could do whatever you wanted. I loved the storyline also."</h3>
+
+<h2 style="font-weight: bold;">Ricardo</h2>
+<h3 style="font-style: italic; font-weight:normal; ">"I played beat this game 5 times. I love this game. I would recommend this game for everyone who hasn't played it. The only bad part is there is bugs in the PC version. I hope this game comes out with a sequel." </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>

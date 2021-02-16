@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wizard101</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="main.html">Main</a>
+ <a href="Fortnite.html">Fortnite</a>
+ <a href="League of Legends.html">League of Legends</a>
+ <a href="Minecraft.html">Minecraft</a>
+ <a href="GTA5.html">Grand Theft Auto 5</a>
+ <a href="PUBG.html">Player Unknown Battle Grounds</a>
+ <a href="CSGO.html">Counter Strike Global Offensive</a>
+ <a href="OSRS.html">Old School Runescape</a>
+ <a href="MW2.html">Call Of Duty: Modern Warfare 2</a>
+ <a href="Bully.html">Bully</a>
+ <a class="active" href="Wizard101.html">Wizard101</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+
+<img style="width:100%;height: 223px;padding: 15px; border-radius:25px;" src="images/Wizard101 Banner.jpg">
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">Wizard101</h1>
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="https://www.wizard101.com/wizardCreator/BuildWizardCreator/wizardcreator?siteId=8ad6a40421866c50012188e0c72b0075" target="_parent">
+	<img src="images/Wizard1012.jpg" alt="Website of Wizard101" title= "Wizard101" style="width:511px; height:302px;margin-right: 50px;border-radius:25px;"> </a>
+
+<h1 style="text-align: center;">1 Month Membership: $9.95 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('Wizard101 Mem')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+</td>
+
+<td>
+<h1 style="font-weight: 500;">
+Wizard101 is a massive multiplayer online role-playing game created by KingIsle entertainment. This MMORPG game is a family game. Players take on the role of students of witchcraft and wizardry to save the sprial. There are different schools of witchcraft such as Storm, Fire, Ice, Death, Balance, Life, and Myth. Players will battles enemies by casting spells. This game is mostly a card game that is free roaming.
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+Wizard101 is free to play! There is a Membership which unlocks tons of new areas and new quest. There is 2 currency in this game. Crowns and Gold. Crowns let users buy exclusive gear and packs. There are some good gold gear but most of the time Crown items are superior to gold items. Wizard101 is playable on Microsoft Windows, and Macintosh Operating Systems.
+
+</h1>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;">Hater09</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "This game is fun but limits players who don't pay for membership. If you want to have fun in this game, I suggest you buying the memebership for $10 a month. There is little one can do without this membership." </h3>
+
+<h2 style="font-weight: bold;">Ricardo</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "This game is my childhood. I've played this game since the 5th grade. The whole game is an amazing idea. A card game that allows users to walk around and do what they want is a great idea. Along with that there is a a cool PVP area that is fun to do. " </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>

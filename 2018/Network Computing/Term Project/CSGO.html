@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSGO</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="main.html">Main</a>
+ <a href="Fortnite.html">Fortnite</a>
+ <a href="League of Legends.html">League of Legends</a>
+ <a href="Minecraft.html">Minecraft</a>
+ <a href="GTA5.html">Grand Theft Auto 5</a>
+ <a href="PUBG.html">Player Unknown Battle Grounds</a>
+ <a class="active" href="CSGO.html">Counter Strike Global Offensive</a>
+ <a href="OSRS.html">Old School Runescape</a>
+ <a href="MW2.html">Call Of Duty: Modern Warfare 2</a>
+ <a href="Bully.html">Bully</a>
+ <a href="Wizard101.html">Wizard101</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+<img style="width:100%;height: 223px;padding: 15px; border-radius:25px;" src="images/CSGO Banner.jpg">
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">Counter Strike Global Offensive</h1>
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="http://blog.counter-strike.net/" target="_parent">
+	<img src="images/CSGO2.jpg" alt="Website of Counter Strike Global Offensive" title= "Counter Strike Global Offensive" style="width:511px; height:302px;margin-right: 50px;border-radius:25px;"> </a>
+
+<h1 style="text-align: center;">CSGO: $14.99 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('CSGO Game')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+</td>
+
+<td>
+<h1 style="font-weight: 500;">
+CSGO is a multiplayer first person shooter game that is developed by Valve Corporation. Its a strong team based game. The objective is different based on the mode. Most of the time its either plant the bomb or kill all of the players in the other team. This game has a strong e-esports fan base. There are big tournaments that happen every year.
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+CSGO is playable on Microsfot Windows, XBOX One, Macintosh Operating System, Playstation 3, XBOX 360, and Linux
+
+</h1>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;">Ricardo</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "This game is not that enjoyable for me. I would not recommend this game to others unless they have good aiming. I have bad aiming in this game. I heard to be good at this game, you would have to play for hours. I am not into putting in hours and years just to become decent." </h3>
+
+<h2 style="font-weight: bold;">Summit1G</h2>
+<h3 style="font-style: italic; font-weight:normal; "> "CSGO will always have a place in my heart. This game is amazing because of how big it is. The fan base is huge. The e-sports scene is also amazing. I love rooting for my favorite team when they play." </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>

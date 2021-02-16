@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fortnite</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="main.html">Main</a>
+ <a class="active" href="Fortnite.html">Fortnite</a>
+ <a href="League of Legends.html">League of Legends</a>
+ <a href="Minecraft.html">Minecraft</a>
+ <a href="GTA5.html">Grand Theft Auto 5</a>
+ <a href="PUBG.html">Player Unknown Battle Grounds</a>
+ <a href="CSGO.html">Counter Strike Global Offensive</a>
+ <a href="OSRS.html">Old School Runescape</a>
+ <a href="MW2.html">Call Of Duty: Modern Warfare 2</a>
+ <a href="Bully.html">Bully</a>
+ <a href="Wizard101.html">Wizard101</a>
+</div>
+
+<div id="main">
+
+<span class="navbutton" title="Navigation" onclick="openNav()">&#9776;</span>
+
+<span class="cart" title="Cart" onclick="location='cart.html'">
+<div id ="Counter">
+	<img class = "cartButton" src="images/Cart.png">
+</div>
+</span>
+
+
+<img style="width:100%;padding: 15px; border-radius:25px;" src="images/Fortnite Banner.jpg">
+
+
+<h1 id="page" style="text-decoration: underline; text-align: center;display: none;">Fortnite</h1>
+
+<table style="width:100%">
+<tr>
+
+<td>
+<a href="https://www.epicgames.com/fortnite/en-US/buy-now/battle-royale" target="_parent">
+	<img src="images/Fortnite2.jpg" alt="Website of Fortnite" title= "Fortnite" style="width:511px; height:302px;margin-right: 50px;border-radius:25px;"> </a>
+
+<h1 style="text-align: center;">1,000 V-Bucks: $10 </h1>
+
+<span class="add" title="Add to Cart" onclick="AddtoCart('1,000 V-Bucks')">
+<img class = "addButton" src="images/add.png">
+</span>
+
+</td>
+
+<td>
+<h1 style="font-weight: 500;">
+Fortnite is a survival game that was created by Epic Games. It can be played on XBOX, PS4, PC, Mobile. There are 2 game modes, "Save the World" and "Battle Royale". Majority of people play "Battle Royale" mode because its Free to Play and fun.
+</h1>
+<br>
+<br>
+<h1 style="font-weight: 500;">
+Fortnite Battle Royale is free to play! In Battle Royale, players can buy a battle pass for a certain season which cost 950 V-Bucks. V-Bucks is a currency used in game. With V-Bucks you can buy skins, emotes, etc. The Battle pass gives players challenges and rewards them for getting obtaining tiers. Fortnite also has the game mode "Save the World" which is $40. Save the World Gamemode is a co-op sandbox survival game and is about exploration, scavenging items, crafting weapons, building fortified structures, and fighting waves of encroaching monsters.
+</h1>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<div id="Reviews">
+<h1 style="text-align: center; text-decoration: underline;"> Reviews of Product</h1>
+<h2 style="font-weight: bold;">Ricardo Deodutt</h2>
+<h3 style="font-style: italic; font-weight:normal; ">"At first I thought this game just sucked, but I started playing it with friends and loved it. Now I have bought the battle pass and wasted tons of money on this game just to look cool. I would suggest this game instead of games like H1Z1 and Player Unkown BattleGrounds because this game is way faster and interesting with the build mechanics." </h3>
+
+<h2 style="font-weight: bold;">Hudeshchand</h2>
+<h3 style="font-style: italic; font-weight:normal; ">"This game is interesting. At first I hated it because I could not build good, but I started getting used to it. I bought the battle pass because my friends peer-pressured me to get it." </h3>
+</div>
+
+<br>
+<hr>
+<br>
+<div id="postComment">
+<label> Name: (optional) <br><input type="text" name="Name" id="username" placeholder="Anonymous"></label><br><br>
+
+<label> Message: <br><textarea cols="45" rows="5" name="Message" id="MessageBox"></textarea></label><br>
+
+<button  onclick="AddComment()" type="button"> Submit </button>
+
+</div>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<h5 style="position: relative; bottom: 0;"> <center>Created by Ricardo Deodutt <center> </h5>
+</div>
+<script src="Comment.js"></script>
+<script src="Cart.js"></script>
+</body>
+</html>
