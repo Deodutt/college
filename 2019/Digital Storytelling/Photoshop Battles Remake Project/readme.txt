@@ -1,0 +1,1 @@
+In this project, students are encouraged to surf the the reddit page, Photoshop Battles, for images that we can remake using photoshop.

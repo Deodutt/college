@@ -1,0 +1,1 @@
+This project is a collaborative open education exploration using design, digital tools, the creative human potential and the Internet. It is our intention to generate, discuss and fuse together disciplines through visual communication.

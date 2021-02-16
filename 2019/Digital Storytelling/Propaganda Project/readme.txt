@@ -1,0 +1,1 @@
+This is an optional project where students are encouraged to find old propaganda images and relate it to the course we are taking.

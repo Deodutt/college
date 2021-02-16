@@ -1,0 +1,1 @@
+This is an optional project where students are encouraged to recycle their old profile pictures into a new use.
