@@ -1,0 +1,32 @@
+design2 – natours features and tours
+design2 05 Natours Project with Sass Part 3, videos 038-041
+
+To accomplish the angled look of the top and bottom of the features section, the tutorial makes use of CSS selectors to skew the parent then de-skew the direct children. 
+
+Why direct children vs. all children? 
+How do both selectors work? 
+Describe how this works using a SCSS code snippet to illustrate.
+
+We can use the clip path to give skew path but we can skew the entire section
+
+    transform: skewY(-7deg);
+skews all the items
+
+
+we skew entire section
+and unskew the items
+
+New selector. direct child selector
+ & > *
+direct child we want to select is all of them
+but only everything that is a direct child of section-features
+
+.section-features > *
+
+
+if we did .section-features *
+we would select all the child. not only the direct teh child but simply all the children element
+we only want to select direct children which is the .row
+
+
+so the direct child will only select the first child it comes across and then apply the styles we put in..
