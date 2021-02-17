@@ -1,0 +1,4 @@
+Section 14 Advanced DOM Manipulation, videos 130 – 135
+
+
+Describe what the two arguments of the addEventListener method are and how they work. Give four examples of the first argument and give examples of using an anonymous function vs. a declared function for the second argument. Use the code-insert tool for your examples.
