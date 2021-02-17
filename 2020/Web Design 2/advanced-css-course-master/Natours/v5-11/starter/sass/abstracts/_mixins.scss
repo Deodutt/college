@@ -1,0 +1,27 @@
+@mixin clearfix {
+    &::after {
+        // declare the mixin
+        // the clearfix puts a pseudo element after the element to clear the floats
+        // once we include it into the grid, it will copy the code and transform to row
+        // .row::after{}
+
+        // specify the content otherwise the pseduo element wont appear on the page. we want it empty becuase we dont want to see this element on the page
+        content: "";
+        display: table;
+        // we want to display it 
+        // the property that performs the clearfix is the clear property. We use both because it clears both floats. float left or right.
+        clear: both;
+    }
+}
+
+
+@mixin abCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
