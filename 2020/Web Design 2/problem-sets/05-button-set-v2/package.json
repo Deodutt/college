@@ -1,0 +1,14 @@
+{
+  "name": "05-button-set-v2",
+  "version": "1.0.0",
+  "description": "Problem Set 05-button-set-v2 using 7-1 Architecture",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ricardo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
