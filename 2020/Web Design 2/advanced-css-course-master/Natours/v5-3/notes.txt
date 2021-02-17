@@ -1,0 +1,14 @@
+034 grid system
+
+v5-3
+
+:not() pseudo selector
+calc() function
+[] attribute selector with the ^ operator used.
+::after pseudo selector to write a clearfix hack
+
+
+grid is just a design system that allows us to build consistant interfaces
+
+everyone uses a grid
+gutter
