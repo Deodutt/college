@@ -1,0 +1,68 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey-dark;
+    padding: 3rem;
+
+}
+
+
+.heading {
+
+    &--primary {
+        border-top: 5px solid $color-primary;
+        padding-top: 2rem;
+        font-family: 'Permanent Marker', Cursive;
+        font-Size: 5rem;
+        max-width: $grid-width;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        font-weight: 500;
+
+    }
+
+    &--secondary {
+        font-family: 'Permanent Marker', Cursive;
+        font-Size: 3.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        color: $color-primary-light;
+
+    }
+
+    &--tertiary {
+        font-family: 'Permanent Marker', Cursive;
+        font-Size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+        color: $color-primary-light;
+    }
+
+    &--quaternary {
+        font-family: 'Permanent Marker', Cursive;
+        font-Size: 2rem;
+        font-weight: 200;
+        margin-bottom: 1rem;
+        color: $color-primary-light;
+    }
+}
+
+.dark {
+    color: $color-primary;
+}
+
+.paragraph {
+    font-family: 'Overpass', Sans-Serif;
+    font-size: $default-font-size;
+    font-weight: 400;
+
+
+    // Want paragraph to have margin at bottom. But we dont want space between last one. Use the not pseudo class
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    // We are selecting everything except the last child. In other words we are not selecting the last child. Opposite of the last child. Everything except last child
+}
