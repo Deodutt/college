@@ -1,0 +1,14 @@
+{
+  "name": "my-template-v2",
+  "version": "1.0.0",
+  "description": "Problem Set: My Template v2",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ricardo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
