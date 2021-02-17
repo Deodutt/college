@@ -1,0 +1,39 @@
+.header {
+    height: 95vh;
+    // background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.80), rgba($color-primary-dark, 0.8)), url(../img/hero.jpg);
+    background-image: linear-gradient(to right bottom, rgba($color-grey-dark-3, 0.80), rgba($color-black, 0.85)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /* clip-path: polygon(x y, x y, x y, x y); */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+
+    &__logo-box {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    }
+
+    &__logo {
+        height: 7rem;
+        width: 7rem;
+
+        @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+            background-color: red;
+            mask-image: url(/audit/img/skull-icon.svg);
+            mask-size: cover;
+            -webkit-mask-image: url(/audit/img/skull-icon.svg);
+            -webkit-mask-size: cover;
+            background-image: none;
+        }
+    }
+
+    &__text-box {
+        @include abCenter;
+        text-align: center;
+    }
+
+
+}
