@@ -1,0 +1,67 @@
+.row {
+    // width: 1140px;
+    // if the viewport is smaller, it will fill 100% of space
+    max-width: $grid-width;
+    // background-color: #eee;
+    margin: 0 auto;
+
+    // .row:not()
+    // Basically selects everything except the last child.
+    &:not(:last-child) {
+        // So the vertical gutter will be on all the rows except the last child.
+        margin-bottom: $gutter-vertical;
+    }
+
+    // .row:last-child() // would select the last hcild
+
+    @include clearfix;
+
+    // attribute selector
+    // we can select all the elements that have src in it.
+    // [src]
+
+    // This selects all the elements with the alt attribute
+    // [alt="Logo"] 
+
+    // We want to select based off class
+    // This will select all the element in which the class attribute starts with, col-. The ^ allows us to select it.
+    //instead of ^, we could have [class*=""col-"]. this would select any class that contain col-...
+    // [class$="col-"] would select any class that ends with col-....
+    [class^="col-"] {
+        // background-color: orangered;
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+        }
+    }
+
+
+    .col-1-of-2 {
+        width: calc((100% - #{$gutter-horizontal}) / 2);
+        // calc() is a powerful function. you can do mathematical operations and mix units in here. It allows us to mak e calcualtions  where we can mix units.
+        // To use a sass variable you have to wrap the variable in #{}.
+
+    }
+
+    .col-1-of-3 {
+        width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    }
+
+    .col-2-of-3 {
+        width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
+    }
+
+    .col-1-of-4 {
+        width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+    }
+
+    .col-2-of-4 {
+        width: calc(2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+    }
+
+    .col-3-of-4 {
+        width: calc(3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+    }
+
+}

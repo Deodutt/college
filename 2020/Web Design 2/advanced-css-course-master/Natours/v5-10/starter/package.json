@@ -1,0 +1,14 @@
+{
+  "name": "5-10-navigation",
+  "version": "1.0.0",
+  "description": "v5.10 navigation section for natourssssssss",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ricardo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
