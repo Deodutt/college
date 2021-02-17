@@ -1,0 +1,32 @@
+I will be selecting scene 25. I believe this scene will get people who are impatient. I was thinking of doing either scene 25 or 34. But I decided to go with 25.
+
+
+1."N", click
+2.Instructions removed
+3."S", click
+4.Move letters
+5."S", click
+
+Complete
+
+
+1.Rain Icon, click
+2.Instructions removed
+3.Snow Icon, click
+3.Snow Icon, click
+4.Swap Icon Snow Icon and Sun
+5.Swap the colors of Snow and Sun.
+6.Snow Icon, click
+
+
+This week we finally build our functions to test whether the correct icons have been clicked in the correct order. We start with building our eventListener that listens for clicks on the <i> elements (icons). This listener is going to be able to also report the index value of the icon clicked. And that value will be used to check if it was the correct icon.
+
+There are three videos from the Playlist this week which take you through these steps:
+
+Creating the Event Listener;
+Testing if the icon clicked is the correct one;
+Testing if the scene is complete.
+
+
+For the Blog:
+Describe how the spread operator is used to convert a node list of selected elements into an array. Describe why we needed this conversion and how the array was helpful for our first test in the game’s logic.
