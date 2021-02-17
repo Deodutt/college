@@ -1,0 +1,32 @@
+/* use the universal selector to do a reset */
+/* includes the ::before and ::after pseudo selectors to deal with content in those css declarations */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    /* using the inherit keyword so all elements in the body will inherit
+    box-sizing: border-box; */
+    box-sizing: inherit;
+}
+
+/* font-size: 10px; */
+/* making the assumption that the default browser
+    font-size is 16px. Using the percentage reduces to 10px. */
+html {
+    font-size: 62.5%;
+}
+
+/* set elements to border-box to improve sizing calculations */
+body {
+    box-sizing: border-box;
+}
+
+/* overall font properties set in the body element */
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    color: #777;
+}
