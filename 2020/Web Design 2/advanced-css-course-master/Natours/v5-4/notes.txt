@@ -1,0 +1,14 @@
+design2 – natours about section
+Section 05 Natours About Section, videos 035 – 037
+
+Blog questions
+Describe how the :not pseudo selector works. Give an example in an Enlighter code snippet to support your description.
+
+
+
+
+
+Utility classes
+background-clip
+transform multiple properties
+style elements not hover, while others are
