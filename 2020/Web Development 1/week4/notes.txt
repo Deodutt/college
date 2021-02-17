@@ -1,0 +1,150 @@
+Blog Questions
+With the array methods pop() / push() and shift() / unshift(), explain the difference between the returned value of each method and the resulting value of the array? Use an example piece of code with the Enlighter tool to support your description.
+
+
+Link to an example of a site that is using an array of data that is presented on page. Describe what is in value of the array.
+
+
+103
+objective 1: define and add data to an array
+objective 2: use built in array methods
+exercise console todo list
+
+104
+What arrays are and y we use it
+To make a group of friends, u could make 4 variables.
+code is dry and repeated code. also each variable is seperate
+
+an array lets us group data in a list
+we can write 1 varaible and store 4 different names
+
+var friends = ["charlie", "Liz", "David", "Mattias"];
+Arrays are indexed starting at 0.
+
+friends[0] = charlie
+this replaced index 0 to charlie.
+
+friends[4] = "Amelie" this will make another index
+let colors = ["red", "orange", "yellow"];
+
+
+
+arrays can be defined differeent
+
+let friends = [];  empty array
+
+let friends = new Array()     // function.
+
+let random_collection = [49, true, "qadeerisgay", null];
+
+let nums = [45,28,48,89];
+nums.length //4
+
+105
+push/pop
+shift/unshift
+indexOf
+Slice
+
+push and pop
+let colors = ["red", "orange", "yellow"];
+push = adding something to very end of array
+colors.push("green");
+
+colors.push("indigo")
+push knows the end of array. adds whatever u pass into the end
+push returns length of array after the new element is added
+push takes one argument and will add to end of array and return the length of array
+
+Pop removes the last element in the array.
+
+colors.pop();
+use pop to remove from array and use it
+returns the last item in the array and removes it.
+pop is used to remove something from array and do something with it
+pop takes no argument and returns the last item in the array it uses.
+
+
+
+sift and unshift
+they add and remove from the end of the array // stacks and queues
+
+shift and unshift are the opposite of push and pop
+
+unshift = to add to front of an array.
+returns the lnegth of array after it moves the item to the front???????
+colors.unshift("infrared")
+
+shift = removes frist item in an aray and returns that item.
+returns the item it removes.
+colors.shift();
+
+var nums = [34, 54, 22];
+
+nums.unshift("hell");
+4
+
+
+
+IndexdOf
+
+Takes an argument like a string/num and tries to find that argumeent in a given array.
+
+
+let friends = ["Charlie", "liz", "david", "Mattias", "Liz];
+
+friends.indexOf("David"); // 2
+
+friends.indexOf("Liz"); // 1, not 4
+
+indedOf returns first instance if its repeated...
+
+
+
+if indexOf returns -1, it is not present in the array.
+
+
+
+
+
+Slice is used to copy different portions of an array.
+
+
+var fruits = [ 'banana', 'orange', 'lemon', 'apple', 'mango'];
+var citrus = fruits.slice(1, 3);
+slice takes 2 arguments
+1st one is the index, and the second is where the slice should stop.
+so it should start at ornage, and stop at apple. It includes orange and lemon but DOES NOT include apple.
+
+when var citrus = fruits.slice(1, 3); is ran
+citrus becoems a new array
+['Orange', 'Lemon']
+original array is un altered
+
+to copy entire array we just ue var otherArray = nums.slice();
+
+
+
+
+108 array iteration
+
+use a foor loop to iterate over an array
+
+use forEach to iterate over an array
+compare and contrast for loops and forEach
+
+for (let i = 0; i < colors.length; i++){
+    console.log(colors[i]);
+}
+
+For each is new to java. 2009
+arr.forEach(someFunction)
+
+
+var colors = ["red", "orange", "yellow", "green",];
+
+colors.forEach(function(color){
+    color is a placeholder,call it whatever you want
+    console.log(color);
+}
+
