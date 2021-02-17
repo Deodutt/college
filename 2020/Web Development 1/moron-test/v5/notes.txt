@@ -1,0 +1,33 @@
+I will be selecting scene 25. I believe this scene will get people who are impatient. I was thinking of doing either scene 25 or 34. But I decided to go with 25.
+
+
+1."N", click
+2.Instructions removed
+3."S", click
+4.Move letters
+5."S", click
+
+Complete
+
+
+1.Rain Icon, click
+2.Instructions removed
+3.Snow Icon, click
+3.Snow Icon, click
+4.Swap Icon Snow Icon and Sun
+5.Swap the colors of Snow and Sun.
+6.Snow Icon, click
+
+
+This week brings the start of building a number of helper functions used in various scenes to do scene specific actions. In the moron test game, in some scenes when an icon is clicked it is then hidden, in others icons move, and in others instructions change. So we need to build a number of ‘helper’ functions for each of these actions.
+
+We also need to have a way to apply those helpers to each particular scene. To do this to each scene object we will add a new main key that will be a function. This function will then be called every time an icon is clicked. And inside this scene[level].main function we can pass the various required helper functions for a particular scene.
+
+We’ll cover this in two tutorial videos:
+
+Scene Main Function
+Scene Helper Functions and Switch Statement
+And catch up or review from anywhere in the Moron Test tutorial Videos.
+
+For the Blog
+Describe how the scene[level].main(icon, indx) function is called within the check(icon, indx) function. How are we tracking the icon and index values? Why do we need to track and pass the icon and index values to the scene’s main function? What does the scene’s main function do with these values?
