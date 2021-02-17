@@ -1,0 +1,116 @@
+
+===============================================\
+069
+In Chrome you can write code in JS Developer Console
+
+
+use console to play/test things out, then we implement a js file
+
+5 primitive data types
+
+numbers - js doesnt care if its whole/fractional. its treated all the same
+follows PEMDAS
+
+mODULO - REMAINDER
+10 % 3  ; take 3 divide it by 10 as many times asa w hole number. 3 times. takes remainder which is 1. answer 1
+
+
+
+strings - basically text. inside quotes
+can add string together "charlie" + "brown"     = concatenation
+
+escape character \" text \"  quotes the text without breaking sentence.
+\\ shows 1 \.
+
+
+"hello".length = 5
+"hello"[0] = h
+
+booleans - 2 options. true or false.
+
+null and undefined - values. not category.only 1 each. 
+
+===============================================\
+
+
+
+
+===============================================\
+070
+test
+
+"blah" + "blah" [6] = add
+"hello".length %  hi\.length
+5 % 3 = 2
+
+===============================================\
+
+
+
+===============================================\
+071
+Variables
+
+Varible is a container that has a name. iside container is data.
+the name variable means the data in the jar can change.
+
+var yourVaribleNAME = yourValue;
+
+
+var name = "rusty";
+var secretNumber = 73;
+var isAdorable = true;
+
+
+cases
+-----------
+camelCase
+snake_case
+kebab-case
+===============================================\
+
+===============================================\
+072
+null and undefined
+similar. both mean nothingness
+null means expclityl nothingness
+undefined means something is empety or doesnt have value yet.
+
+===============================================\
+
+
+===============================================\
+073
+
+clear()
+
+
+//alert
+pops up message for user
+alert("windows is not activated!!");
+alert(1017);
+
+alert(1017+1);
+
+
+//console.log
+print something to js console.
+console.log("hello from the console");
+
+
+//prompt
+lets us get input from user.
+prompt("what is ur name");
+
+you can store in Varible
+var userName = prompt("what is ur name");
+
+===============================================\
+
+
+
+
+let - declaring value u plan to change.
+
+const - dom
+
