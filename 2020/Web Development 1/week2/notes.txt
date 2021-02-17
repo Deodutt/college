@@ -1,0 +1,169 @@
+Notes
+dev1 – JS Basics, Control Flow
+Section 09, videos 079 – 092
+
+
+079
+introduction
+
+080
+Boolean Logic
+2 possible options ; true or false
+
+>     ; greater than
+>=    ; greater than or equal to
+<     ; less than
+<=    ; less than or equal to
+==    ; equal to
+!=    ; not equal to
+===   ; equal value and type
+!==   ; not equal value or equal type
+
+
+=== is much safer and specific.. checks if its a string or if the data tpye is a number...
+STRICT EQUALS - cares about type and value
+NaN = not a number 
+
+
+
+081
+Logical Operators
+
+&& AND
+|| OR
+! NOT
+
+Truthy and Falsy Values
+"hello"
+
+negatte "hello", and I get true back, it tells you the string "hello" is Falsy
+!"hello"
+!!"hello"  dobule negate
+
+Falsy Values
+false
+""
+null
+undefied
+NaN
+0
+everything else is truthy
+
+NaN
+"8"
+!Number
+
+corection is to corece a number to string and a string to  nuber.
+one primitive tyoe to another.
+
+falseyness function
+
+using falseyness to test the value.
+!Number(str) to test if thats a number
+
+//
+for loop SyntaxError
+
+while (condition) doesmnnt have CSSStyleDeclarationin the while loop you need the incrementer and intitier. declare before setting condition.CSSStyleDeclarationin
+//
+
+
+
+082
+JS Conditionals
+if
+else if
+else
+
+if you are younger than 18
+you cannot enter the venue
+
+
+if you are between 18 and 21
+you can enter but cannot drink
+
+otherwise you can enter and drink
+
+
+if (age < 18){
+    console.log("Sorry, you are too young);
+}
+
+else if (age <21){
+    console.log("You can enter, but you can't drink);
+}
+
+else{
+    console.log("come on in.")
+}
+
+083
+Number(guess) turns the guess, the users inputed string, into a number.
+
+084
+Javascript loops
+
+wet code = write everything twice
+
+While Loops
+
+while (someCondition){
+    runn some code
+}
+
+
+var count = 1;
+
+while (count <6 ){
+    console.log("count is: " + count);
+    count++
+    count+= 2;
+}
+
+var str = "hello";
+
+var count = 0;
+
+while (count <str.length){
+    console.log(str[count]);
+    count++
+}
+
+085
+
+
+086
+
+
+087
+
+
+088
+
+
+089
+For Loops
+for (init; condition; step){
+    runs code
+}
+
+the varible in the for loop only exist in the for loop.***********************
+for (let count = 0; count < 6; count++){
+    console.log(count);
+}
+
+
+
+
+
+
+
+
+090
+
+
+091
+
+
+092
+
