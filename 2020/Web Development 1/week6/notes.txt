@@ -1,0 +1,30 @@
+Blog Question:
+Describe how the querySelector() and querySelectorAll() methods work. What is the difference between the values returned for each method? Use an example code snippet to support your answer; include sample HTML and JS selectors.
+
+
+//121
+INTERACTING with the dom can allow us to do things
+
+make web pages interactive
+animations
+games
+scrolling effects
+dropdown menus
+
+
+
+google searh box uses html and javascript
+
+
+
+interactivity - code runs when pressing key
+
+
+//122
+Dom (document object model) is the interface between your JS and HTML+CSS
+
+how we do sstuff to add a new element to the page
+how we can get value out of form
+dom connects js with html+CSS
+
+dom because everything lives in the document
