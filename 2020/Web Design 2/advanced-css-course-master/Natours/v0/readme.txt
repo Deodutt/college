@@ -1,0 +1,1 @@
+This is the default files for the Natours project.
