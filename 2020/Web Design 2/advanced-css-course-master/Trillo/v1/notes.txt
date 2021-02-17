@@ -1,0 +1,13 @@
+flexbox replaces float layouts using less nd more readable and logical code.
+
+css grid layouts are good for 2d layouts..
+
+display: flex
+to create a flex container
+all items inside are called flex items.
+
+Container
+flex-direction: row | row-reverse | column | column-reverse;
+flex-wrap: nowrap | wrap | wrap-reverse;
+justify-content
+align-items
