@@ -1,0 +1,156 @@
+Sass is a css preprocessor, an extension of css that adds power and elegance to the basic language.
+
+main sass features
+
+varaible: for reusable values such as colors font size psacing
+
+nesting to nest sleectors inside of one another allowiung us to write less code
+
+operators for matheamatic operators right inside css
+
+paartial and imports to write css in diffrent files and importing them all into one single files
+mixins to write reusable peices of css code 
+
+functions smilkar to mixins with the difference that they produce a value that can be used
+
+extends to make different slectors inherit declariations that are common to all of them
+control directives for writing complex code using conditionals and loops 
+
+
+
+Sass syntax vs SCSS syntax
+
+sass indentation sentsive and dont use curely braces
+
+scss perserves way regular css looks like 
+
+
+
+mixins to write reusable peices of css code 
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+stored this peice of code inside varaible mixin clearfix.
+
+@include name of mixin
+
+  @mixin style-link-text($col) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $col;
+}
+
+passing argument. pass information and mixin uses the information.
+
+
+@function divide($a, $b) {
+    @return $a / $b;
+}
+
+extends are used when elements are related to each other.
+%btn-placeholder {
+
+}
+
+
+
+
+
+
+-----
+windows
+dir
+echo > filename.js
+
+ni filename.test
+
+copy index.js ..
+move index.js ..
+del js
+mkdir js
+rmdir js
+del index.js script.js
+hero.jpg 
+
+
+-----
+mac
+cd js
+rm index.js
+clear
+ls
+cp - copy
+mv - move
+rm -r js  == remove js folder recursively
+open hero.jpg
+echo "" > maintext.scss
+
+-------------------------------------------
+
+npm init
+npm install node-sass
+npm install node-sass --save-dev
+
+npm install jquery - javascript file 
+
+
+if u share file, share everythign except node_modules file
+npm install
+look at package.json file and install
+
+
+npm unistall jquery --save
+
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+    name of package -> input file _> output file
+
+to compile in terminal
+    npm run compile:sass
+
+    automatic packages to prefix code for multiple browsers
+    compress and more?????????????????
+
+    add -w to keep watching.
+
+
+    package to automatically reload
+    npm install live-server -g   ; globally
+    sudo if error..
+    sudo npm install live-server -g
+
+    once installed
+    live-server
+
+
+
+
+
+
+
+ni filename.txt    = to make a file UTF8
+
+npm init
+npm install node-sass --save-dev
+
+
+if u want to use someone else code
+npm install
+this will check the package.json file and install
+
+
+"compile:sass": "node-sass sass/main.scss css/style.css"
+"compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+    npm run compile:sass
+
+control c = kill terminal
+
+
+
+
+
