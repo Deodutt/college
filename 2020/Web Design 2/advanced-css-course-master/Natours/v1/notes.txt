@@ -1,0 +1,65 @@
+what are we suppose to duuplicate v1 v2 v3 natours
+entire file?
+
+3 pillars tow rite good html and css and build good website
+
+responseive design
+Build 1 website that works across all websites
+
+maintaining and scalable code
+
+web performance
+
+
+
+load html -> parse html    -------------> Document Object Model (DOM)====
+
+
+load html -> PARSE HTML -> Load CSS -> Parse CSS     --------> CSS Object Model (CSSOM) ====
+
+
+====> RENDER TREE -> Website rendering the visual formatiing model = final rendered website
+
+
+casescae = process of comibining differetn stylesheets and resovling conflicts between different css rules and declations, when more than one rule applies to a certain element
+
+
+importance => specificity => source order
+
+background-color: blue !important;
+
+
+PUT YOUR AUTHOR STYLESHEET LAST
+ORDER OF STYLESHEET IN HTML - MATTERS
+
+
+
+video 016 - rewatch halfway
+
+
+
+header.header .heading span#title{
+
+}
+
+
+
+
+
+
+
+box-size border box
+
+alows you to define width to element attritubte
+
+if you add padding and margin... it will stay that width
+
+whole thing will stay the same with boderbox...
+
+
+
+
+@import url for css fonts
+
+
+
