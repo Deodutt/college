@@ -1,0 +1,14 @@
+Section05 Natours Project with Sass Part 4, videos 042-044
+
+This week includes a method for a video background, using object-fit & object-position properties, and a return to clip-path as well as transform: skew()
+
+
+
+how to make text flow around shapes with shape-outsisde and float
+
+how to apply a filter to images
+
+how to create background video convering an entire Section05
+how to use <video> html element
+
+how and when to use the object-fit property
