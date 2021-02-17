@@ -1,0 +1,33 @@
+Blog Question
+Link to an example dynamic webpage that likely pulls data from a database to build the site – any social media site, newspaper, blog, etc. Take a screenshot of a typical “post” and propose an object data structure to store all the elements of the post. Use the Enlighter code embed tool to include your proposed object design in a code sample.
+
+
+114 introduction to objects
+let person = ["Cindy", 32, "Missoula];
+person[2];
+let person2 = ["Travis", "Los Angeles", 21];
+
+Arrays is not the perfect solution for every situation
+
+Javascript Objects is the perfect
+let person = {
+    name: "Cindy",
+    age: 32,
+    city: "Missoula"
+}
+
+let person = {
+    name: "Travis",
+    age: 21,
+    city: "Los Angeles"
+}
+
+Unlike array, which has an order 1st item, 2nd item, 3rd item
+Ojbects have no array. Things floating inside
+
+To retrive data out of an object you have 2 chocies
+
+console.log(person["name"]);
+
+//Dot Notation
+console.log(person.name);
