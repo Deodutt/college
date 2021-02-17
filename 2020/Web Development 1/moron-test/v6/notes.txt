@@ -1,0 +1,66 @@
+I will be selecting scene 25. I believe this scene will get people who are impatient. I was thinking of doing either scene 25 or 34. But I decided to go with 25.
+
+
+1."N", click
+2.Instructions removed
+3."S", click
+4.Move letters
+5."S", click
+
+Complete
+
+
+1.Rain Icon, click
+2.Instructions removed
+3.Snow Icon, click
+3.Snow Icon, click
+4.Swap Icon Snow Icon and Sun
+5.Swap the colors of Snow and Sun.
+6.Snow Icon, click
+----------------------------------------------------------------------
+
+We’re coming to the end of the Moron Test, having built the logic and a number of tools to interact with scenes. There are just a few remaining tools needed to create all the various interactions in the game. I’ve created a complete scenes.js file you can use to follow along, not having to write new scenes if you’d like to use it. It also includes another js file a4.js which is called to build a whole bunch of icons as well.
+
+For the new tools, we’ll need to have a timing function and will use the setTimeout(callback, time) function. Also, we need to manage events that happen before a user might start clicking on icons and after a user has clicked on all the correct icons. To do this we will add a start and finish keys to each scene with a default null value. But we will be able to add functions where necessary.
+
+And, finally we’ll create a failScene function for when our user makes a mistake.
+
+Tutorial videos:
+All Scenes and unhide helper function – Moron Test Project in JS
+Timer Function and start scene function – Moron Test Project in JS
+Timer Function and finish scene function – Moron Test Project in JS
+FailScene Function – Moron Test Project in JS
+Full Moron Test Playlist
+
+
+
+For the Blog:
+Describe how the start and finish functions are called in moron.js. How does the program know if there is a start or finish function to run? Where is each start or finish function placed and why?
+
+--------------------------------------------------------------------------------------------------
+Every scene has a start;if we need to run a function when a scene starts, main; where the logic, and finish; is if we need to run a function after someone has completed all the clicks they need to click.
+
+The start and finish function are null, unless there are things that need to be done at the start of the scene. The start function needs to be placed in the playScene() function. It needs to be placed before the scene, plays and listens for clicks.
+
+function playScene() {
+    if (scene[level].start) {
+        scene[level].start();
+    }
+
+    icons = document.querySelectorAll('i');
+    let iconsArr = [...icons];
+    iconsArr.forEach(function (icon, indx) {
+        icon.addEventListener('click', function () {
+            check(icon, indx);
+        })
+    })
+}
+
+
+So, if the scene based on the level has a start value, then the if() statemenet is true. If the start value is set to null then the if() statemenet will resolve as false. If the statemenet is true, then it will run the start function inside the scene's level database in scene.js
+
+
+The finish function needs to be added after the clicks are done. Inside the check(icon, indx) function, we need to add the logic for running a finish to the scene. 
+
+
+Once a scene is complete, the level is increase and the nextScene(); is called. There should be an if() statement before that. When the click count equals the clicksNeded (meaning the scene is done), check for a finish function. If there is no finish function increase level and go to next scene. If there is a finish function, run it.
