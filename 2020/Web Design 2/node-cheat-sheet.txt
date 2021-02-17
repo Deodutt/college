@@ -1,0 +1,25 @@
+if u share file, share everythign except node_modules file
+npm install
+This look at package.json file and install
+
+otherwise....
+
+1) npm init
+
+2) npm install node-sass --save-dev
+
+
+3) Change scripts in package.json
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+Remove the test script and replace with this. Run it once, then replace it with the 2nd one to auto save it.
+"compile:sass": "node-sass sass/main.scss css/style.css"
+"compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+
+4) npm run compile:sass
+
+
